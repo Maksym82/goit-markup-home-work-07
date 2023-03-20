@@ -119,7 +119,7 @@
             <path stroke="#2E2F42" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M1.3 20H31M1.3 10.7H31M1.3 1.4H31"/>
         </symbol>
         <symbol id="icon-icon-burger" viewBox="0 0 47 32">
-            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.961 29.154h42.965M1.961 15.615h42.965M1.961 2.077h42.965"></path>
+            <path stroke="#2E2F42" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M1.3 20H31M1.3 10.7H31M1.3 1.4H31"/>
         </symbol>
     </defs>
 </svg>
