@@ -1,0 +1,29 @@
+//  Header
+.page-header{
+background-color: $color-white;
+border-bottom: 1px solid #E7E9FC;
+box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+            0px 1px 1px rgba(46, 47, 66, 0.16),
+            0px 1px 6px rgba(46, 47, 66, 0.08);
+height: 70px;  
+}
+
+.header__nav {
+position: relative; 
+display: flex;
+align-items: center;
+height: 100%;
+}
+
+.nav-container {
+height: 100%;
+@extend %container;
+
+@media screen and (min-width: 768px){
+display: flex;
+align-items: center;
+}
+}
+
+
+

@@ -1,0 +1,98 @@
+/* Team */
+.team {
+    background-color: $color-cloud;
+    padding-top: 96px;
+    padding-bottom: 128px;
+
+    @media screen and (min-width: 768px){
+    padding-bottom:104px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+    padding-top: 120px;
+    padding-bottom: 120px; 
+    }
+}
+
+.team-container {
+    @extend %container;
+}
+
+.team__title {
+    @extend %section-title;
+}
+
+.team__set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    @extend %list;
+
+    @media screen and (min-width: 768px) and (max-width:1199px) {
+        padding-left: 92px;
+        padding-right: 92px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        flex-wrap: nowrap;
+    }
+
+}
+
+.teammate {
+    background-color: $color-white;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+
+    .team__set &:not(:last-child) {
+        margin-bottom: 72px;
+
+        @media screen and (min-width:768px) and (max-width:1199px) {
+            flex-basis: calc((100% - 24px)/2);
+            margin-right: 24px;
+
+
+            &:nth-child(2n) {
+                margin-right: 0;
+            }
+
+            &:nth-last-child(-n+2) {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .team__set &:not(:last-child) {
+            margin-right: 24px;
+            margin-bottom: 0;
+        }
+
+    }
+}
+
+.teammate__info {
+    padding: 32px 16px;
+}
+
+.teammate__name {
+    margin-bottom: 8px;
+    color: $color-navy-blue;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.teammate__position {
+    margin-bottom: 8px;
+    font-weight: 400;
+    color: $color-slate;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}

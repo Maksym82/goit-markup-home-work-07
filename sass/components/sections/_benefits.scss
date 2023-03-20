@@ -1,0 +1,121 @@
+/* Benefits */
+.benefits {
+    padding-top: 96px;
+    padding-bottom: 96px;
+
+    @media screen and (min-width:1200px) {
+        padding-top: 120px;
+        padding-bottom: 0px;
+    }
+}
+
+.benefits-container {
+    @extend %container;
+}
+
+.benefits__set {
+    @extend %list;
+    @extend %container;
+    margin: 0px -16px;
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width:1200px) {
+        flex-wrap: nowrap;
+    }
+}
+
+.benefits__item {
+    .benefits__set &:not(:last-child) {
+        margin-bottom: 72px;
+
+        @media screen and (min-width:768px) and (max-width:1199px) {
+            flex-basis: calc((100% - 24px) / 2);
+            width: 356px;
+            margin-right: 24px;
+
+            &:nth-child(2n) {
+                margin-right: 0;
+            }
+
+            &:nth-last-child(-n+2) {
+                margin-bottom: 0;
+            }
+        }
+
+        @media screen and (min-width:1200px) {
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: 24px;
+        }
+    }
+}
+
+.benefits__title {
+    @extend %section-title;
+    @extend %visually-hidden;
+}
+
+.benefits__icon {
+    display: none;
+
+    @media screen and (min-width:1200px) {
+        display: flex;
+        background-color: $color-cloud;
+        height: 112px;
+        margin-bottom: 8px;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.benefits__icon-svg {
+    width: 64px;
+    height: 64px;
+}
+
+.benefits__name {
+    margin-bottom: 8px;
+    color: $color-navy-blue;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    @media screen and (min-width:768px) {
+        text-align: left;
+    }
+
+    @media screen and (min-width:1200px) {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+}
+
+.benefits__text {
+    color: $color-slate;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    max-width: 396px;
+
+    @media screen and (min-width:768px) {
+        text-align: left;
+        max-width: 356px;
+    }
+
+    @media screen and (min-width:1200px) {
+        width: 264px;
+        font-weight: 400;
+    }
+}

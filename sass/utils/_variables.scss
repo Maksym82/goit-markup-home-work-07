@@ -1,0 +1,46 @@
+$color-iris: #4D5AE5;
+$color-ocean: #404BBF;
+$color-navy-blue: #2E2F42;
+$color-green: #31D0AA;
+$color-slate: #434455;
+$color-light-slate: #8E8F99;
+$color-cornflower: #E7E9FC;
+$color-cloud: #F4F4FD;
+$color-navy-blue-modal: #2E2F42;
+$color-grey: #2E2F42;
+$color-white: #FFFFFF;
+$color-dark-grey: #757575;
+$color-background-modal: #FCFCFC;
+
+body {
+    background-color: $color-white;
+    color: $color-slate;
+    font-family: Roboto;
+    font-style: normal;
+    letter-spacing: 0.02em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
