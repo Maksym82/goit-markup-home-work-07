@@ -197,8 +197,7 @@ p {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -243,8 +242,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1580,8 +1578,7 @@ p {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-decoration: none;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
   cursor: pointer;
 }
 .menu-navigation__link:hover, .menu-navigation__link:focus {
@@ -1609,8 +1606,7 @@ p {
   text-transform: capitalize;
   color: #4D5AE5;
   margin-bottom: 32px;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 .menu-contacts__link-mail {
@@ -1619,8 +1615,7 @@ p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #434455;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
 }
 
 .mobile-menu__button {
