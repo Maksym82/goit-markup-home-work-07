@@ -1648,14 +1648,16 @@ p {
 
 .mobile-menu__icon {
   fill: transparent;
+  padding-top: 11px;
+  padding-left: 7px;
 }
 
 .mobile-menu__button-close {
   position: absolute;
   width: 24px;
   height: 24px;
-  top: 40px;
-  right: 40px;
+  top: 37px;
+  right: 25px;
   cursor: pointer;
   background-color: #E7E9FC;
   border: 1px solid rgba(0, 0, 0, 0.1);
