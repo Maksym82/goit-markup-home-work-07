@@ -1392,6 +1392,15 @@ p {
           column-gap: 24px;
   row-gap: 16px;
 }
+@media (min-width: 768px) {
+  .portfolio__button-set {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .button-set__button {
   font-family: inherit;
