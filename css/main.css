@@ -886,6 +886,20 @@ p {
   fill: #404BBF;
 }
 
+#scrollToTop {
+  position: fixed;
+  bottom: 36px;
+  left: 75%;
+  display: none;
+  cursor: pointer;
+  z-index: 15;
+  opacity: 0.6;
+}
+
+.scroll-up {
+  fill: #4D5AE5;
+}
+
 .page-footer {
   background-color: #2E2F42;
   padding-top: 96px;

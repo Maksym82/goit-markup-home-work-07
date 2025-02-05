@@ -1,0 +1,13 @@
+#scrollToTop {
+  position: fixed;
+  bottom: 36px;
+  left: 75%;
+  display: none;
+  cursor: pointer;
+  z-index: 15;
+  opacity: 0.6;
+}
+
+.scroll-up {
+    fill: $color-iris;
+}
