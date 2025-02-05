@@ -450,7 +450,7 @@ p {
 @media screen and (min-width: 1200px) {
   .benefits {
     padding-top: 120px;
-    padding-bottom: 0px;
+    padding-bottom: 120px;
   }
 }
 
